@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Features</title>
+</head>
+<body>
+
+    <script>
+        {
+            class mobileApp {
+
+                constructor(a) {
+                    this.appName = a;
+                }
+
+                static AppFeatures() {
+                    alert("Mobile Features");
+                }
+            }
+            const obj = new mobileApp("SmartPhone");
+            mobileApp.AppFeatures();
+             obj.AppFeatures(); //error because static methods cannot be invoked
+        }
+    </script>
+    <p id="p1" >output</p>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    class BasicPhone {
+        calling() {
+            alert("Simple calling");
+        }
+    }
+
+    class SmartPhone extends BasicPhone {
+        camera() {
+            alert("I can take pictures");
+        }
+    }
+
+    var obj1 = new BasicPhone(); 
+    var obj2 = new SmartPhone();
+
+    obj1.calling();
+    obj2.calling();
+
+    obj2.camera();
+</script>
+</body>
+</html>

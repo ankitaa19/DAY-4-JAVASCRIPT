@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Local and global variables in JavaScript</h1>
+        
+        <script>
+            var g1 = "Hallo";
+            
+            function hello() {
+                g2 = "Namaste"; 
+            }
+            
+            function greet() {
+                alert(g1); 
+                alert(g2); 
+            }
+        </script>
+        <input type="button" onclick="greet()" value="Global Variable">
+    </body>
+</html>
